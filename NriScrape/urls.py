@@ -19,5 +19,5 @@ from scrape1 import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('ret/', views.retrieveData),
+    path('/', views.retrieveData),
 ]
